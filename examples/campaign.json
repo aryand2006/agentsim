@@ -1,0 +1,11 @@
+{
+  "enabled": ["timeout", "tool_error", "drop_result", "reorder", "poison_description", "budget_blowup"],
+  "timeout_prob": 0.2,
+  "error_prob": 0.2,
+  "drop_prob": 0.1,
+  "reorder_prob": 0.5,
+  "poison_prob": 0.5,
+  "budget_blowup_prob": 0.25,
+  "budget_multiplier": 50.0,
+  "max_faults_per_run": 4
+}

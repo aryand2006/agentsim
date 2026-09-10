@@ -14,3 +14,5 @@ htmlcov/
 venv/
 *.json
 !examples/contracts.json
+!examples/campaign.json
+!examples/fixtures/*.json
