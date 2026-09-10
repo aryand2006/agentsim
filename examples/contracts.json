@@ -1,0 +1,7 @@
+[
+  {"type": "required_sequence", "sequence": ["get_balance", "request_approval", "transfer_funds"]},
+  {"type": "forbidden_tools", "tools": ["delete_all"]},
+  {"type": "approval_before_side_effect"},
+  {"type": "max_cost", "limit": 2.0},
+  {"type": "max_steps", "limit": 16}
+]
